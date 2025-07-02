@@ -17,10 +17,7 @@ public class Leerdatos {
 		
 		System.out.println (nombre + " en 10 años tendra " + (edad + 10) + "años");
 		
-		
-		
-		
-		
+			
 		// TODO Auto-generated method stub
 
 	}

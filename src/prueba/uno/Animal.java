@@ -23,7 +23,7 @@ public class Animal {
 		
 		System.out.println(animal1.nombre);
 		System.out.println(animal2.peso);
-		
+		    
 		
 		
 	}
