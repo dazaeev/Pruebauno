@@ -31,28 +31,21 @@ public class Operaflotante {
 			break;
 		case'/':
 			if (n2 != 0) {
-			resultado = (double)
-			n1/n2;
+				resultado = (double)
+				n1/n2;
 			} else {
-				
-			
-		JOptionPane.showMessageDialog(null, "no se puede dividir entre cero.");
-		return;
+				JOptionPane.showMessageDialog(null, "no se puede dividir entre cero.");
+				return;
 			}
 			break;
 			default:
 				JOptionPane.showMessageDialog(null, "Operacion no valida.");
 				return;
 		}
-			
-				JOptionPane.showMessageDialog(null, "El resultado es:" + resultado);
-				
-				
-	           }
+		JOptionPane.showMessageDialog(null, "El resultado es:" + resultado);			
 	}
+}
 	
-		
-		// TODO Auto-generated method stub
 
 
 
